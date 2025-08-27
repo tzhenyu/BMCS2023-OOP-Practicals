@@ -62,20 +62,20 @@ class Student {
     };
 
     // Setter are mutators
-    void setID(int id) {
+    public void setID(int id) {
         this.studentID = id;
     }
 
-    void setName(String name) {
+    public void setName(String name) {
         this.studentName = name;
     }
 
     // Getter are accessor
-    int getID() {
+    public int getID() {
         return studentID;
     }
 
-    String getName() {
+    public String getName() {
         return studentName;
     }
 
